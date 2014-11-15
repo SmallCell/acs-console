@@ -4,12 +4,15 @@ from django.http import HttpResponse
 from .models import Greeting
 
 import requests
+import os
 
 # Create your views here.
 def index(request):
     r = requests.get('http://httpbin.org/status/418')
-    print r.text
-    return HttpResponse('Hello from Python!' + '<pre>' + r.text + '</pre>')
+    N = os.getenv('TIMES', 5)
+    rsp = '<pre>' + r.text + '</pre>'
+
+    return HttpResponse(rsp * int(N))
 
 
 def db(request):

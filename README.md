@@ -26,6 +26,10 @@ $ foreman start web
 ```
 http://0.0.0.0:5000
 
+```
+$ heroku run python manage.py shell
+$ heroku run bash
+```
 ## Deploying to Heroku
 
 
