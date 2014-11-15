@@ -18,8 +18,15 @@ $ foreman start web
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Virtualenv
+```
+$ . bin/activate
+$ pip install -r requirements.txt --allow-all-external
+$ foreman start web
+```
+http://0.0.0.0:5000
 
+## Deploying to Heroku
 
 
 ```sh
@@ -29,6 +36,12 @@ $ git push heroku master
 $ heroku run python manage.py syncdb
 $ heroku open
 ```
+
+```sh
+$ heroku ps:scale web=1
+```
+### Propagate
+
 
 ## Documentation
 
@@ -40,5 +53,4 @@ heroku create                                                                   
 Creating rocky-wildwood-1445... done, stack is cedar
 https://rocky-wildwood-1445.herokuapp.com/ | git@heroku.com:rocky-wildwood-1445.git
 Git remote heroku added
-
 
