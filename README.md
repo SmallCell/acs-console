@@ -20,7 +20,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
+
+
 ```sh
+$ heroku login # lib.aca55a@gmail.com / jasha123
 $ heroku create
 $ git push heroku master
 $ heroku run python manage.py syncdb
@@ -32,4 +35,10 @@ $ heroku open
 For more information about using Python on Heroku, see these Dev Center articles:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
+
+heroku create                                                                                                                                  vlad@django
+Creating rocky-wildwood-1445... done, stack is cedar
+https://rocky-wildwood-1445.herokuapp.com/ | git@heroku.com:rocky-wildwood-1445.git
+Git remote heroku added
+
 
