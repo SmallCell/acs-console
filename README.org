@@ -1,54 +1,46 @@
 
-#+TITLE: Android platform 
+#+TITLE: Android platform
 #+CATEGORY: android
 #+BEGIN: columnview :hlines 1 :id global
 #+END:
 
-** Refresh django
-**** TODO Two Scoops of Django: Best Practices for Django 1.6.
-***** repo at: https://github.com/twoscoops/django-twoscoops-project/tree/develop
-***** REST and AngularJS
-      http://blog.kevinastone.com/getting-started-with-django-rest-framework-and-angularjs.html
-**** Book Content [1/31]
-     - [X] Chapter 1: Coding Conventions
-     - [ ] Chapter 2: The Optimal Django Environment Setup
-     - [ ] Chapter 3: How to Lay Out Django Projects
-     - [ ] Chapter 4: Fundamentals of Django App Design
-     - [ ] Chapter 5: Settings and Requirements Files
-     - [ ] Chapter 6: Database/Model Best Practices
-     - [ ] Chapter 7: Function- and Class-Based Views
-     - [ ] Chapter 8: Best Practices for Function-Based Views
-     - [ ] Chapter 8: Best Practices for Class-Based Views
-     - [ ] Chapter 10: Common Patterns for Forms
-     - [ ] Chapter 11: More Things to Know About Forms
-     - [ ] Chapter 12: Templates: Best Practices
-     - [ ] Chapter 13: Template Tags and Filters
-     - [ ] Chapter 14: Building REST APIs in Django
-     - [ ] Chapter 15: Consuming REST APIs in Templates
-     - [ ] Chapter 16: Tradeoffs of Replacing Core Components
-     - [ ] Chapter 17: Working With the Django Admin
-     - [ ] Chapter 18: Dealing with the User Model
-     - [ ] Chapter 19: Django's Secret Sauce: Third-Party Packages
-     - [ ] Chapter 20: Testing Chapter of Doom!
-     - [ ] Chapter 21: Documentation: Be Obsessed
-     - [ ] Chapter 22: Finding and Reducing Bottlenecks
-     - [ ] Chapter 23: Security Best Practices
-     - [ ] Chapter 24: Logging: What's It For, Anyway?
-     - [ ] Chapter 25: Signals: Use Cases and Avoidance Techniques
-     - [ ] Chapter 26: What About Those Random Utilities?
-     - [ ] Chapter 27: Deployment: Platforms as a Service
-     - [ ] Chapter 28: Deploying Django Projects
-     - [ ] Chapter 29: Identical Environments: The Holy Grail
-     - [ ] Chapter 30: Continuous Integration
-     - [ ] Chapter 31: How To Release Your Own Django Packages
-
-*** Frontend – Lucia
-    - Analiza statistici Jenkins – UT
-    - Single page design
-*** Deployment - Vlad
-    - Python modules & dependencies
-    - Db config environment connect string
-    - Step build master
+* Refresh django
+*** TODO Two Scoops of Django: Best Practices for Django 1.6.
+**** repo at: https://github.com/twoscoops/django-twoscoops-project/tree/develop
+**** REST and AngularJS
+     http://blog.kevinastone.com/getting-started-with-django-rest-framework-and-angularjs.html
+*** Book Content [1/31]
+    - [X] Chapter 1: Coding Conventions
+    - [ ] Chapter 2: The Optimal Django Environment Setup
+    - [ ] Chapter 3: How to Lay Out Django Projects
+    - [ ] Chapter 4: Fundamentals of Django App Design
+    - [ ] Chapter 5: Settings and Requirements Files
+    - [ ] Chapter 6: Database/Model Best Practices
+    - [ ] Chapter 7: Function- and Class-Based Views
+    - [ ] Chapter 8: Best Practices for Function-Based Views
+    - [ ] Chapter 8: Best Practices for Class-Based Views
+    - [ ] Chapter 10: Common Patterns for Forms
+    - [ ] Chapter 11: More Things to Know About Forms
+    - [ ] Chapter 12: Templates: Best Practices
+    - [ ] Chapter 13: Template Tags and Filters
+    - [ ] Chapter 14: Building REST APIs in Django
+    - [ ] Chapter 15: Consuming REST APIs in Templates
+    - [ ] Chapter 16: Tradeoffs of Replacing Core Components
+    - [ ] Chapter 17: Working With the Django Admin
+    - [ ] Chapter 18: Dealing with the User Model
+    - [ ] Chapter 19: Django's Secret Sauce: Third-Party Packages
+    - [ ] Chapter 20: Testing Chapter of Doom!
+    - [ ] Chapter 21: Documentation: Be Obsessed
+    - [ ] Chapter 22: Finding and Reducing Bottlenecks
+    - [ ] Chapter 23: Security Best Practices
+    - [ ] Chapter 24: Logging: What's It For, Anyway?
+    - [ ] Chapter 25: Signals: Use Cases and Avoidance Techniques
+    - [ ] Chapter 26: What About Those Random Utilities?
+    - [ ] Chapter 27: Deployment: Platforms as a Service
+    - [ ] Chapter 28: Deploying Django Projects
+    - [ ] Chapter 29: Identical Environments: The Holy Grail
+    - [ ] Chapter 30: Continuous Integration
+    - [ ] Chapter 31: How To Release Your Own Django Packages
 
 
 * org-config                                                        :ARCHIVE:
@@ -67,4 +59,3 @@
 #+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
 
 #+STYLE: <link rel="stylesheet" type="text/css" href="org-manual.css" />
-
